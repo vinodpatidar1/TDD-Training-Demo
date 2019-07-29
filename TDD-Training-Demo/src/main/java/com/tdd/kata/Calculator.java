@@ -4,7 +4,7 @@ import com.exception.NegativeNotSupportedException;
 
 public class Calculator {
 
-	String delimiters = ",|\n|;";
+	String delimiters = ",|\n|;|\\*";
 
 	public int addNumbers(String strParams) throws Exception {
 		int nTotal = 0;

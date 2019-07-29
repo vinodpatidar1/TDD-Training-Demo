@@ -20,5 +20,7 @@ class CalculatorSpec extends Specification {
 		strParams		| 	result
 		""				|	0
 		"3,4"			|	7
+		"4\n5"			|	9
+		"1\n2,3"		|	6
 	}
 }

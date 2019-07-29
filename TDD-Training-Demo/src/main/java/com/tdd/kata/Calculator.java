@@ -4,10 +4,6 @@ public class Calculator {
 
 	String delimiters = ",|\n";
 
-	public String getMessage() {
-		return "Hello World!";
-	}
-
 	public int addNumbers(String strParams) {
 		int nTotal = 0;
 		try {

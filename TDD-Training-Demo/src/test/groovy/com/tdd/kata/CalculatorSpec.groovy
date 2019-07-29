@@ -5,11 +5,6 @@ import spock.lang.Specification
 class CalculatorSpec extends Specification {
 	def objCalculator = new Calculator()
 
-	def 'Welcome Message'() {
-		expect: 'Should return  the welcome message'
-		objCalculator.getMessage() == 'Hello World!'
-	}
-
 	def 'Add numbers from string'(){
 		given: 'A string have number with comma seprated'
 		when: 'Calculator.addNumbers function calls'

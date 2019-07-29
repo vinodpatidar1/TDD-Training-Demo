@@ -17,5 +17,6 @@ class CalculatorSpec extends Specification {
 		"3,4"			|	7
 		"4\n5"			|	9
 		"1\n2,3"		|	6
+		"//;\n1;2"		|	3
 	}
 }

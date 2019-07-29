@@ -1,7 +1,13 @@
-#Fri Jul 26 10:11:54 EDT 2019
-connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(4.10.3))
-override.workspace.settings=true
-gradle.user.home=
-connection.project.dir=
+arguments=
+auto.sync=false
 build.scans.enabled=false
+connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(4.10.3))
+connection.project.dir=
+eclipse.preferences.version=1
+gradle.user.home=
+java.home=
+jvm.arguments=
 offline.mode=false
+override.workspace.settings=true
+show.console.view=false
+show.executions.view=false

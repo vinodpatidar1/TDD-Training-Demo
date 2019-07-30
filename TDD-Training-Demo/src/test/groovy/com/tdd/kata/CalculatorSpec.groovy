@@ -24,7 +24,7 @@ class CalculatorSpec extends Specification {
 		"10***20\n30;5,3"	|	68
 		"//[***]\n1***2***3"|	6
 	}
-	
+
 	def 'Add with a negative number'(){
 		given: 'A string have negative number with comma separated'
 		when: 'Calculator.addNumbers function calls'
